@@ -58,8 +58,11 @@ remote_sensing_segmentation/
 ├── docs/                      # 文档
 │   ├── DATASET_SETUP.md      # 数据集设置指南 (英文)
 │   ├── DATASET_SETUP_CN.md   # 数据集设置指南 (中文)
-│   ├── TRAINING_RESULTS.md   # 训练结果
-│   └── FINAL_COMPREHENSIVE_REPORT.md
+│   ├── TRAINING_RESULTS.md   # Training results (English)
+│   ├── TRAINING_RESULTS_CN.md # 训练结果 (中文)
+│   ├── LARGE_FILES.md        # Download guide (English)
+│   ├── LARGE_FILES_CN.md     # 大文件下载说明 (中文)
+│   └── ISAID_DOTA_SOLUTION.md # iSAID数据集解决方案
 │
 └── configs/                   # 配置文件
 ```
@@ -174,9 +177,14 @@ python scripts/generate_predictions.py \
 
 ## 结果
 
-训练结果和性能指标可以在以下文档中找到:
-- [训练结果](docs/TRAINING_RESULTS.md)
-- [综合报告](docs/FINAL_COMPREHENSIVE_REPORT.md)
+详细的训练结果和性能指标：
+- 📊 [训练结果 (中文)](docs/TRAINING_RESULTS_CN.md) - 详细性能分析
+- 📊 [Training Results (English)](docs/TRAINING_RESULTS.md) - Comprehensive analysis
+
+**性能总结：**
+- 🥇 OpenEarthMap: 70.00% mIoU
+- 🥈 LandCover.ai: 69.05% mIoU
+- 🥉 Potsdam: 67.26% mIoU
 
 ## 测试
 

@@ -56,8 +56,12 @@ remote_sensing_segmentation/
 │
 ├── docs/                      # Documentation
 │   ├── DATASET_SETUP.md      # Dataset setup guide
-│   ├── TRAINING_RESULTS.md   # Training results
-│   └── FINAL_COMPREHENSIVE_REPORT.md
+│   ├── DATASET_SETUP_CN.md   # 数据集设置指南(中文)
+│   ├── TRAINING_RESULTS.md   # Training results and performance
+│   ├── TRAINING_RESULTS_CN.md # 训练结果(中文)
+│   ├── LARGE_FILES.md        # Download guide for large files
+│   ├── LARGE_FILES_CN.md     # 大文件下载说明(中文)
+│   └── ISAID_DOTA_SOLUTION.md # iSAID dataset solutions
 │
 └── configs/                   # Configuration files
 ```
@@ -172,9 +176,14 @@ The segmentation model uses:
 
 ## Results
 
-Training results and performance metrics can be found in:
-- [Training Results](docs/TRAINING_RESULTS.md)
-- [Comprehensive Report](docs/FINAL_COMPREHENSIVE_REPORT.md)
+Detailed training results and performance metrics:
+- 📊 [Training Results (English)](docs/TRAINING_RESULTS.md) - Comprehensive performance analysis
+- 📊 [训练结果 (中文)](docs/TRAINING_RESULTS_CN.md) - 详细性能分析
+
+**Performance Summary:**
+- 🥇 OpenEarthMap: 70.00% mIoU
+- 🥈 LandCover.ai: 69.05% mIoU
+- 🥉 Potsdam: 67.26% mIoU
 
 ## Testing
 
