@@ -86,3 +86,4 @@ results/
 # Environment
 .env
 .env.local
+.claude/
