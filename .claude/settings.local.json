@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(du:*)",
+      "Bash(du -sh:*)",
+      "Bash(python -m py_compile:*)",
+      "Bash(grep:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

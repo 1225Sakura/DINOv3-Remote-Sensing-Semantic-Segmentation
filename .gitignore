@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Model files (large files - download from cloud)
+trained_models/**/*.pth
+trained_models/**/*.ckpt
+trained_models/**/*.pt
+checkpoints/
+*.pth
+*.ckpt
+
+# Dataset files (large files - download separately)
+datasets/LoveDA/
+datasets/iSAID/
+datasets/Vaihingen/
+datasets/Potsdam/
+datasets/LandCoverai/
+datasets/OpenEarthMap/
+data/
+
+# Log files (can be large)
+logs/*.log
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Results and outputs
+outputs/
+predictions/
+predictions_final/
+results/
+
+# Pretrained weights
+*.caffemodel
+*.h5
+*.pb
+
+# Compressed archives (large files)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Environment
+.env
+.env.local
