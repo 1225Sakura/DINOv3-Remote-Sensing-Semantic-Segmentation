@@ -143,9 +143,9 @@ python remote_sensing_segmentation/scripts/train.py \
 Generate predictions for a trained model:
 
 ```bash
-python remote_sensing_segmentation/scripts/generate_predictions.py \
+python scripts/generate_predictions.py \
     --datasets loveda \
-    --models_dir trained_models/quick_train \
+    --models_dir trained_models \
     --output_dir predictions
 ```
 
@@ -197,14 +197,14 @@ This project is released under the same license as DINOv3. Please refer to the o
 
 ## Citation
 
-If you use this code in your research, please cite:
+If you use this code in your research, please cite DINOv3:
 
 ```bibtex
-@article{oquab2023dinov2,
-  title={DINOv2: Learning Robust Visual Features without Supervision},
-  author={Oquab, Maxime and Darcet, Timoth{\'e}e and Moutakanni, Th{\'e}o and Vo, Huy V. and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and others},
-  journal={arXiv preprint arXiv:2304.07193},
-  year={2023}
+@misc{oquab2024dinov3,
+  title={DINOv3: A Self-supervised Vision Transformer Model with Improved Training},
+  author={Oquab, Maxime and Darcet, Timothée and Moutakanni, Theo and Vo, Huy and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and Assran, Mahmoud and Ballas, Nicolas and Galuba, Wojciech and Howes, Russell and Huang, Po-Yao and Li, Shang-Wen and Misra, Ishan and Rabbat, Michael and Sharma, Vasu and Synnaeve, Gabriel and Xu, Hu and Jegou, Herve and Mairal, Julien and Labatut, Patrick and Joulin, Armand and Bojanowski, Piotr},
+  year={2024},
+  howpublished={\url{https://github.com/facebookresearch/dinov3}}
 }
 ```
 
