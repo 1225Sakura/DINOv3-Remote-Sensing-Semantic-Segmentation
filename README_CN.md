@@ -26,7 +26,7 @@
 remote_sensing_segmentation/
 ├── README.md                  # 本文件
 ├── README_CN.md              # 中文说明
-├── requirements.txt           # Python依��
+├── requirements.txt           # Python依赖
 ├── .gitignore                # Git忽略规则
 │
 ├── datasets/                  # 数据集加载器
